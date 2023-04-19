@@ -25,6 +25,5 @@ public class UserController {
         model.addAttribute("user", userService.getUser(user.getId()));
         model.addAttribute("titleTable", "Страница пользователя: ");
         return "userTitle";
-
     }
 }
